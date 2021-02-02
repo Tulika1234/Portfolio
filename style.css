@@ -1,0 +1,92 @@
+h1 {
+    color: brown;
+    background-image : url("galaxy.png")  ;
+    background-position: center;
+}
+
+
+
+.header{
+    background-color: #40e0d0;
+    display: flex;
+    justify-content: space-between ;
+   
+  
+}
+
+.header h1{
+    margin-left: 100px;
+    border : solid;
+    padding-left: 30px;
+}
+
+.menu *{ 
+    padding: 30px;
+ 
+}
+
+a:link{
+    color: #000000;
+    
+}
+
+a:visited {
+    color: #ffffff;
+    
+}
+
+.menu {
+    background-color: #00ff00;
+    display: flex;
+    justify-content: center;
+}
+
+.grid{
+    background-color: #b4b4f4;
+    display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+
+.footer{
+    background-color: #ff7b79;
+    display: flex;
+    justify-content: flex-end;
+}
+
+h2,p{
+  text-align: center;  
+}
+
+img{
+    border:solid;
+    border-radius: 50px;
+}
+
+.item {
+    position: relative;
+    
+}
+
+
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    font-size: 200%;
+    color : #ff0000;
+
+}
+
+
+.item:hover p{
+opacity: 1;
+
+
+}
+
+.item:hover img{
+    opacity:0.3;
+}
